@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rachana.Cosmei">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.rachana.Cosmei.LoginActivity"
+            android:exported="false" />
+        <activity android:name="com.rachana.Cosmei.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.rachana.Cosmei.Productdetails" />
+        <activity android:name="com.rachana.Cosmei.HomeActivity" />
+
+        <activity android:name="com.rachana.Cosmei.cartactivity1" />
+        <activity android:name="com.rachana.Cosmei.OrderActivity" />
+
+
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
